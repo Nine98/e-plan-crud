@@ -1,0 +1,6 @@
+# Project exclude paths
+/e-plan-api/target/
+/e-plan-common/target/
+/e-plan-mapper/target/
+/e-plan-pojo/target/
+/e-plan-service/target/

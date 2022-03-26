@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="e-plan-service" />
+        <module name="e-plan-api" />
+        <module name="e-plan-common" />
+        <module name="e-plan-pojo" />
+        <module name="e-plan-mapper" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="e-plan-api" options="-parameters" />
+      <module name="e-plan-common" options="-parameters" />
+      <module name="e-plan-mapper" options="-parameters" />
+      <module name="e-plan-pojo" options="-parameters" />
+      <module name="e-plan-service" options="-parameters" />
+    </option>
+  </component>
+</project>
